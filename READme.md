@@ -35,7 +35,9 @@ Data/
  └── CICIDS2017_combined.csv  # Merged dataset (generated)
 
 Notebook/
- └── 01_EDA.ipynb             # Exploratory Data Analysis
+  ├── 01_EDA.ipynb             # Exploratory Data Analysis
+  ├── 02_Preprocessing.ipynb   # Preprocesing of Data ( Normalization , Standardisation)
+  └── 03_RF_baseline.ipynb     # Generation of Random Forest Classifier and Storing it for future use
 
 Pipeline/
  └── data_combination.py      # Script to merge raw CSV files
@@ -86,8 +88,6 @@ Research-standard preprocessing decisions:
 
 ---
 
-## Next Steps (Upcoming Phases)
-
 ### Phase 2 – Preprocessing & Modeling
 
 - Feature scaling
@@ -99,6 +99,8 @@ Research-standard preprocessing decisions:
   - Neural Network
 
 ---
+
+## Next Steps (Upcoming Phases)
 
 ### Phase 3 – Explainable AI
 
