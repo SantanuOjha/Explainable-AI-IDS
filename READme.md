@@ -88,6 +88,8 @@ Research-standard preprocessing decisions:
 
 ---
 
+## In Progress (Working Phase)
+
 ### Phase 2 – Preprocessing & Modeling
 
 - Feature scaling
@@ -130,5 +132,5 @@ University School of Automation and Robotics
 
 ## Status
 
-**Current Stage:** Initial EDA & preprocessing
+**Current Stage:** Built the RF model and applied Vanilla SMOTE
 **Next Milestone:** ML modeling + SHAP explainability
