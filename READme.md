@@ -37,7 +37,8 @@ Data/
 Notebook/
   ├── 01_EDA.ipynb             # Exploratory Data Analysis
   ├── 02_Preprocessing.ipynb   # Preprocesing of Data ( Normalization , Standardisation)
-  └── 03_RF_baseline.ipynb     # Generation of Random Forest Classifier and Storing it for future use
+  ├── 03_RF_baseline.ipynb     # Generation of Random Forest Classifier and Storing it for future use
+  └── 04_XGboost_baseline.ipynb # Generation of Boosting Model and storing it for the explainability
 
 Pipeline/
  └── data_combination.py      # Script to merge raw CSV files
@@ -132,5 +133,5 @@ University School of Automation and Robotics
 
 ## Status
 
-**Current Stage:** Built the RF model and applied Vanilla SMOTE
+**Current Stage:** Completion of Random Forest Classification and Addition of XGboost with Vanilla SMOTE for testing
 **Next Milestone:** ML modeling + SHAP explainability
