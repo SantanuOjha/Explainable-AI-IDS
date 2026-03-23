@@ -89,13 +89,13 @@ Research-standard preprocessing decisions:
 
 ---
 
-## In Progress (Working Phase)
+## Completed Phase
 
 ### Phase 2 – Preprocessing & Modeling
 
 - Feature scaling
 - Train/test split
-- Class imbalance handling (**SMOTE / ADASYN**)
+- Class imbalance handling (**SMOTE**)
 - Train baseline models:
   - Random Forest
   - XGBoost
@@ -103,7 +103,7 @@ Research-standard preprocessing decisions:
 
 ---
 
-## Next Steps (Upcoming Phases)
+## Ongoing Phase
 
 ### Phase 3 – Explainable AI
 
@@ -133,5 +133,5 @@ University School of Automation and Robotics
 
 ## Status
 
-**Current Stage:** Completion of Random Forest Classification and Addition of XGboost with Vanilla SMOTE for testing
-**Next Milestone:** ML modeling + SHAP explainability
+**Current Stage:** Completion of ML modelling with addition of initial SHAP explainability
+**Next Milestone:** Advanced SHAP explainability
